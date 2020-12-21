@@ -10,7 +10,7 @@ conda env export -n name_of_env > filename.yml
 
 ## Creating env with exported YAML with a prefix
 ```
-conda create -p PREFIX --file filename.yml
+conda env create -p PREFIX --file filename.yml
 ```
 
 ## Adding a prefixed location to search path for envs
