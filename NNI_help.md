@@ -1,6 +1,6 @@
 # Neural Networks Intelligence
 
-NNI is a very helpfull tool for Neural Networks Parellisation.   
+NNI is a very helpfull tool for Hyper parameter tuning.   
 Their home page is [here.](https://nni.readthedocs.io/en/latest/Overview.html) 
 
 
