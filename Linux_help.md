@@ -29,3 +29,7 @@ add ```nameserver 8.8.8.8```
 
 ## 4. Kill Process
 pkill
+
+## 5. Updating Key for older systems
+
+[https://answers.ros.org/question/325039/apt-update-fails-cannot-install-pkgs-key-not-working/](https://answers.ros.org/question/325039/apt-update-fails-cannot-install-pkgs-key-not-working/)
