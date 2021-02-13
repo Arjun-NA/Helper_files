@@ -19,7 +19,7 @@ To save the output as soon as the output is in stdout
 ```sudo route add default gw 192.168.1.254 eth0```
 2. Adding IP address
 ```sudo vi /etc/network/interfaces``` 
-to restart
+and restart with
 ``` sudo /etc/init.d/networking restart ```  
 OR  
 ```sudo ifconfig eth0 192.168.0.1 netmask 255.255.255.0```
