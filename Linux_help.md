@@ -26,3 +26,6 @@ OR
 3. Adding nameserver
 ```sudo vi /etc/resolv.config```
 add ```nameserver 8.8.8.8```
+
+## 4. Kill Process
+pkill
