@@ -37,8 +37,8 @@ pkill
 ## 6. X11 fowarding help
 
 https://unix.stackexchange.com/questions/17255/is-there-a-command-to-list-all-open-displays-on-a-machine
+
 ---
-92
 
 If you want the X connection forwarded over SSH, you need to enable it on both the server side and the client side. (Depending on the distribution, it may be enabled or disabled by default.) On the server side, make sure that you have X11Forwarding yes in /etc/sshd_config (or /etc/ssh/sshd_config or wherever the configuration file is). On the client side, pass the -X option to the ssh command, or put ForwardX11 in your ~/.ssh/config.
 
