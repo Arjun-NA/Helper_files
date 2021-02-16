@@ -80,7 +80,7 @@ https://aruljohn.com/info/x11forwarding/
 2.  In Putty (of Host PC) Enable ```ssh --> X11 --> Enable X11 forwarding```. Set display location as per what Xming server shows you when you hover your mouse over the server. eg: ``` :0.0 ```
 3.  Connect to the server as usual with Putty with the above setting.
 4.  Run ```xclock``` to check if X11 works. if it does this will pop up a clock in your PC which is a window that is forwarded via X11 from Client to Host.
-5.  Running Interactive job requires ```-I``` flag when submitting a job. Additionally -X for reating X11 forwardable job.
+5.  Running Interactive job requires ```-I``` flag when submitting a job. Additionally ```-X```flag for creating X11 forwardable job.
 6.  The command will look like this  
 ``` srun -I -X -N 1 -p gpu --gpus v100:1 --time 12:00:00 --pty bash```  
 This creates a bash for you but here the X11 will not work. Open another SSH connection as per the above settings and then connect to the instance via 
