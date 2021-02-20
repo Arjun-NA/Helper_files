@@ -87,6 +87,9 @@ This creates a bash for you but here the X11 will not work. Open another SSH con
 ``` ssh -X <partition-name> ``` eg: ```ssh -X g2``` and login with your normal credentials. This is now completely helps is X11 forwarding from the allocated node.
 
 
+## 7. dmesg
+to see connected devices messages
+
 
 
 
