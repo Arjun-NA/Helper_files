@@ -90,6 +90,8 @@ This creates a bash for you but here the X11 will not work. Open another SSH con
 ## 7. dmesg
 to see connected devices messages
 
+## 8. Build from scratch 
+http://moi.vonos.net/linux/beginners-installing-from-source/  
 
 
 
