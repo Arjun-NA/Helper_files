@@ -24,4 +24,5 @@ conda activate env_name
 conda env export -n aero > aero.yml
 conda create -p D:\Folder\conda\aero --file aero.yml
 conda config --append env_dirs D:\Folder\conda\
+conda create -n rescapnet python=3.7 tensorflow-gpu=1.13
 ```
